@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PD3</string>
+
+    <string-array name="numbers">
+        <item>Default</item>
+        <item>Dark Theme</item>
+        <item>Light Theme</item>
+    </string-array>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/savedText"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/savedText"
+        android:id="@+id/read"
+        android:layout_margin="30dp"
+        android:text="Read Preferences"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/read"
+        android:id="@+id/back"
+        android:layout_margin="30dp"
+        android:text="Back"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
